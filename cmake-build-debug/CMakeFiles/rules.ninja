@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__test_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/sunyongjian/Documents/test -B/Users/sunyongjian/Documents/test/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/sunyongjian/Clion/test -B/Users/sunyongjian/Clion/test/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

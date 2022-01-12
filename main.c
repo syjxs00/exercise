@@ -1,6 +1,7 @@
-#include <stdio.h>
+# include <stdio.h>
 
-int main() {
-    printf("Hello, World!\n");
+int main()
+{
+    int i=123;
     return 0;
 }
