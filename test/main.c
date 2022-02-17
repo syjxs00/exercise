@@ -1,21 +1,11 @@
 #include <stdio.h>
-#include <string.h>
 
-void _Reverse(char * left,char * right)
+extern int _ThreeFold(void);
+
+int main()
 {
-    while(left<right){
-        char tem=*left;
-        *left=*right;
-        *right=tem;
-        left++,right--;
-    }
-}
+    //三步折叠法，把一个字符串倒置，然后把每个单词再倒置。
+    _ThreeFold();
 
-int main() {
-    char arr[50]={0};
-    gets(arr);
-    int str=strlen(arr);
-    _Reverse(arr,arr+str-1);
-    puts(arr);
     return 0;
 }
